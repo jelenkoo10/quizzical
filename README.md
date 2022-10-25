@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Quizzical - Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Test your knowledge in 25 different categories with this awesome Quizzical app. You get five questions every time, you can choose difficulty, as well as answers between multiple choice and true/false type of questions. Result is being displayed in the end, and you can see which answers you got right.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Process](#process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Users should be able to:
+- choose a category between 25 different ones
+- choose the difficulty of the quiz (easy, medium or hard)
+- choose if they want multiple choice answers or true/false type of quiz
+- change their answers before checking them
+- see their result and all the correct answers, whether they guessed them right or not
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Screenshot
 
-### `npm test`
+Desktop and mobile design of Quizzical App.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](./src/Screenshots/screenshot1.JPG)
 
-### `npm run build`
+![](./src/Screenshots/screenshot2.JPG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Live Site URL: [Quizzical](https://jelenkoo10.github.io/quizzical/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Process
 
-### `npm run eject`
+### Built with
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+  - React Router
+  - React Context
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Useful resources
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Deploying React app with routing on GitHub Pages](https://stackoverflow.com/questions/71984401/react-router-not-working-with-github-pages) - Since it's my first time that I included routing in one of my projects, I had problems with deploying. Here in the link, you can find the way to solve this. Also, don't forget to put 'basename' attribute in HashRouter (<HashRouter basename="/">)!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Author
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub - [https://github.com/jelenkoo10](https://github.com/jelenkoo10)
+- Frontend Mentor - [@jelenkoo10](https://www.frontendmentor.io/profile/jelenkoo10)
+- LinkedIn - [Veljko Jelenković](https://www.linkedin.com/in/veljko-jelenkovi%C4%87-182981250/)

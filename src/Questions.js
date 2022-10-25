@@ -57,12 +57,6 @@ export default function Questions() {
         }
     }
 
-    /* tri grupe odgovora
-        1) izabrani, a netačni
-        2) izabrani, a tačni
-        3) neizabrani, a tačni
-    */
-
     function updateColors() {
         let allAnswers = document.querySelectorAll(".answer")
         let answersPerQuestion = allAnswers.length == 20 ? 4 : 2
