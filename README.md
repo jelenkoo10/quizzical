@@ -48,7 +48,10 @@ Desktop and mobile design of Quizzical App.
 
 ### Useful resources
 
-- [Deploying React app with routing on GitHub Pages](https://stackoverflow.com/questions/71984401/react-router-not-working-with-github-pages) - Since it's my first time that I included routing in one of my projects, I had problems with deploying. Here in the link, you can find the way to solve this. Also, don't forget to put 'basename' attribute in HashRouter (<HashRouter basename="/">)!
+- [Deploying React app with routing on GitHub Pages](https://stackoverflow.com/questions/71984401/react-router-not-working-with-github-pages) - Since it's my first time that I included routing in one of my projects, I had problems with deploying. Here in the link, you can find the way to solve this. Also, don't forget to put 'basename' attribute in HashRouter! 
+```js
+  <HashRouter basename="/"> 
+```
 
 ## Author
 
